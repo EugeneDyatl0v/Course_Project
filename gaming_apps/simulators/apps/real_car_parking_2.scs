@@ -4,12 +4,12 @@ rcp2
         (* <- lang_ru;; *);
     => nrel_main_idtf:
         [Driving simulator Real Car Parking 2]
-        (* <- lang_ru;; *);
+        (* <- lang_en;; *);
 
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//rcp2.jpg"
+            -> rrel_example: "file://..//Photo//rcp2.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;

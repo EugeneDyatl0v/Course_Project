@@ -6,5 +6,8 @@ concept_simulator_games_examples
     [Mobile simulators]
     (* <- lang_en;; *);
 
+->solarsmash;
+->terragenesis;
+->trainsimulator;
 ->WOT_blitz;
 ->rcp2;;

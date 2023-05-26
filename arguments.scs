@@ -17,6 +17,44 @@ YandexLLC
         *);;
     *);;
 
+TaxiBookingServiceAndDelivery
+=> nrel_main_idtf:
+    [Taxi booking service and delivery]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Taxi booking service and delivery]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Служба бронирования и доставки такси - разработчик для Android, который работает с 2012 года. Текущее портфолио приложений содержит 2 приложения, все из которых перечислены в категории "Авто и транспортные средства". В рейтинге Google приложения службы бронирования такси и доставки входят в топ-100 более чем в 10 странах. Популярным приложением является maxim — закажите такси, еду, которое занимает высокие позиции в нескольких странах и с более чем 50 миллионами установок является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Taxi booking service and delivery is an Android developer that has been active since 2012. The current app portfolio contains 2 apps, all of which are listed in the category "Auto & Vehicles". In the Google rankings, Taxi booking service and delivery's apps appear in the top 100 in more than 10 countries. A popular app is maxim — order taxi, food, which is highly ranked in several countries and, with over 50 million installs, is one of the most popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+BITMaster
+=> nrel_main_idtf:
+    [BITMaster]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [BITMaster]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [BIT Master - разработчик Android, который работает с 2014 года. Текущее портфолио приложений содержит 561 приложение. Некоторыми важными приложениями являются Такси "Лидер", Такси Командир, такси "Жулдыз" и такси "Рахш". Все они были установлены более 100 тысяч раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [BIT Master is an Android developer that has been active since 2014. The current app portfolio contains 561 apps. Some important apps are Такси "Лидер", Такси Командир, Жулдыз TAXI, and Rakhsh Taxi. All of them have been installed more than 100 thousand times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
 ZVEZDA_STOLITSY
 => nrel_main_idtf:
     [Звезда Столицы]

@@ -2,10 +2,11 @@ maxim
     => nrel_main_idtf: [Сервис для заказа такси "Maxim"] (* <-lang_ru;;*);
     => nrel_main_idtf: [Service for calling taxi "Maxim"] (* <-lang_en;;*);
 
+    <-concept_services_for_calling_taxi_examples;
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//maxim.jpg"
+            -> rrel_example: "file://Photo//Logo//maxim.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -14,7 +15,7 @@ maxim
 
     => nrel_have_autopark: not_have;
     => nrel_tariff: section_maxim_tariff;
-    -> rrel_developer: unknown;
+    -> rrel_developer: TaxiBookingServiceAndDelivery;
     -> rrel_supported_platform: IOS;
     -> rrel_supported_platform: Android;
     ->rrel_supported_language: all_language;

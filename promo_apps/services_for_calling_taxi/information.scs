@@ -21,6 +21,19 @@ section_maxim_tariff
     ->tariff_hour_pay;
     ->tariff_own_driver;;
 
+section_g10_tariff
+    => nrel_main_idtf:
+        [Тарифы сервиса G10]
+        (* <- lang_ru;; *);
+    ->tariff_g10;;
+
+section_comandir_tariff
+    => nrel_main_idtf:
+        [Тарифы сервиса Такси Командир]
+        (* <- lang_ru;; *);
+    ->tariff_in_town_comandir;
+    ->tariff_out_of_town_comandir;;
+
 section_relations
     => nrel_main_idtf:
         [Использумые отношения]
@@ -82,10 +95,13 @@ section_parametrs
     ->2.5_BYN;
     ->3.1_BYN;
     ->3.2_BYN;
+    ->4_BYN;
+    ->5_BYN;
     ->4.5_BYN;
     ->3.5_BYN;
     ->2.6_BYN;
     ->5.7_BYN;
+    ->10_BYN;
     ->13_BYN;
     ->6_percent;
     ->0.5_BYN_per_km;
@@ -97,6 +113,29 @@ section_parametrs
     ->0.4_BYN_per_km;;
 
 
+
+tariff_in_town_comandir
+    => nrel_main_idtf:
+        [Тариф "В черте города"]
+        (* <- lang_ru;; *);
+    =>nrel_min_pay: 5_BYN;
+    =>nrel_price_km: 0.5_BYN_per_km;
+    =>nrel_pay_time: 0.2_BYN_per_min;;
+
+tariff_out_of_town_comandir
+    => nrel_main_idtf:
+        [Тариф "За чертой города"]
+        (* <- lang_ru;; *);
+    =>nrel_min_pay: 4_BYN;
+    =>nrel_price_km: 0.85_BYN_per_km;
+    =>nrel_pay_time: 0.2_BYN_per_min;;
+
+tariff_g10
+    => nrel_main_idtf:
+        [Тариф "10 BYN" входит 20 км]
+        (* <- lang_ru;; *);
+    =>nrel_min_pay: 10_BYN;
+    =>nrel_price_km: 0.9_BYN_per_km;;
 
 tariff_econom_m
     =>nrel_main_idtf: [Тариф "Эконом"] (* <-lang_ru;; *);
@@ -294,7 +333,7 @@ Volkswagen_Polo => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//polo.jpg"
+            -> rrel_example: "file://Photo//Auto//polo.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -307,7 +346,7 @@ Hyundai_Solaris => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//hyundai_solaris.jpg"
+            -> rrel_example: "file://Photo//Auto//hyundai_solaris.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -320,7 +359,7 @@ Nissan_Almera => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//nissan_almera.jpg"
+            -> rrel_example: "file://Photo//Auto//nissan_almera.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -333,7 +372,7 @@ Skoda_Rapid => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//skoda_rapid.jpg"
+            -> rrel_example: "file://Photo//Auto//skoda_rapid.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -346,7 +385,7 @@ Toyota_Camry => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//toyota_camry.jpg"
+            -> rrel_example: "file://Photo//Auto//toyota_camry.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -359,7 +398,7 @@ Volkswagen_Passat => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//volkswagen_passat.jpg"
+            -> rrel_example: "file://Photo//Auto//volkswagen_passat.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -372,7 +411,7 @@ Renault_Megane => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//renault_megane.jpg"
+            -> rrel_example: "file://Photo//Auto//renault_megane.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -385,7 +424,7 @@ Skoda_Octavia => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//skoda_octavia.jpg"
+            -> rrel_example: "file://Photo//Auto//skoda_octavia.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -398,7 +437,7 @@ Tesla_Model_S => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//tesla_model_s.jpg"
+            -> rrel_example: "file://Photo//Auto//tesla_model_s.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -411,7 +450,7 @@ Chevrolet_Bolt => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//chevrolet_bolt.jpg"
+            -> rrel_example: "file://Photo//Auto//chevrolet_bolt.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -424,7 +463,7 @@ Nissan_Leaf => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//nissan_leaf.jpg"
+            -> rrel_example: "file://Photo//Auto//nissan_leaf.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -437,7 +476,7 @@ Kia_Optima => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//kia_optima.jpg"
+            -> rrel_example: "file://Photo//Auto//kia_optima.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -450,7 +489,7 @@ Hyundai_Sonata => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//hyundai_sonata.jpg"
+            -> rrel_example: "file://Photo//Auto//hyundai_sonata.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -463,7 +502,7 @@ KIA_Rio => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//kia_rio.jpg"
+            -> rrel_example: "file://Photo//Auto//kia_rio.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -476,7 +515,7 @@ Mercedes_Benz_E_class => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//mercedes_benz_e_class.jpg"
+            -> rrel_example: "file://Photo//Auto//mercedes_benz_e_class.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -489,7 +528,7 @@ BMW_5 => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//bmw_5.jpg"
+            -> rrel_example: "file://Photo//Auto//bmw_5.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -502,7 +541,7 @@ Audi_A6 => nrel_main_idtf:
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://Photo//audi_a6.jpg"
+            -> rrel_example: "file://Photo//Auto//audi_a6.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
@@ -609,6 +648,14 @@ Audi_A6 => nrel_main_idtf:
     => nrel_main_idtf: [2.5 BYN] (* <-lang_ru;; *);
     => nrel_value:...(* -> rrel_BYN: 2.5;; *);;
 
+4_BYN
+    => nrel_main_idtf: [4 BYN] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_BYN: 4;; *);;
+
+5_BYN
+    => nrel_main_idtf: [5 BYN] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_BYN: 5;; *);;
+
 3.1_BYN
     => nrel_main_idtf: [3.1 BYN] (* <-lang_ru;; *);
     => nrel_value:...(* -> rrel_BYN: 3.1;; *);;
@@ -652,6 +699,10 @@ Audi_A6 => nrel_main_idtf:
 9_BYN
     => nrel_main_idtf: [9 BYN] (* <-lang_ru;; *);
     => nrel_value:...(* -> rrel_BYN: 9;; *);;
+
+10_BYN
+    => nrel_main_idtf: [10 BYN] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_BYN: 10;; *);;
 
 6_percent
     => nrel_main_idtf: [6%] (* <- lang_ru;; *);
