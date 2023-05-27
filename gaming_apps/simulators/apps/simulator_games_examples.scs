@@ -6,6 +6,13 @@ concept_simulator_games_examples
     [Mobile simulators]
     (* <- lang_en;; *);
 
+->fs20;
+->pccreator;
+->rfs;
+->smartphonetycoon2;
+->taxisim2020;
+->theotown;
+->topeleven2020;
 ->solarsmash;
 ->terragenesis;
 ->trainsimulator;
