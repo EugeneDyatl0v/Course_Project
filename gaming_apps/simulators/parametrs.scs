@@ -21,3 +21,7 @@ medicine_simulator => nrel_main_idtf:
 cosmos_simulator => nrel_main_idtf:
     [Симулятор космоса]
     (* <- lang_ru;; *);;
+
+economic_simulator => nrel_main_idtf:
+    [Экономический симулятор]
+    (* <- lang_ru;; *);;    
