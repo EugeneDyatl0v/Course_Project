@@ -1078,7 +1078,7 @@ one_zone
 
 two_zone
 => nrel_main_idtf:
-    [Однозонный]
+    [Двухзонный]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [Dual-zone]
@@ -1086,7 +1086,7 @@ two_zone
 
 three_zone
 => nrel_main_idtf:
-    [Однозонный]
+    [Трёхзонный]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [Three-zone]
@@ -1094,7 +1094,7 @@ three_zone
     
 four_zone
 => nrel_main_idtf:
-    [Однозонный]
+    [Четырёхзонный]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [Four-zone]
