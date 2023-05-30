@@ -31,7 +31,7 @@ smartphonetycoon2
         *);;
     *);
 
-
+    ->rrel_developer: RoasteryGames;
     =>nrel_view: first_face;
     =>nrel_type_of_game: singleplayer;
     =>nrel_have_donate: have;

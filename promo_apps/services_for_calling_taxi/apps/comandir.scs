@@ -16,7 +16,7 @@ comandir
   => nrel_have_autopark: not_have;
   => nrel_tariff: section_comandir_tariff;
   -> rrel_developer: BITMaster;
-  -> rrel_supported_platform: IOS;
-  -> rrel_supported_platform: Android;
-  ->rrel_supported_language: ru_language;
-  ->nrel_use_of_personal_data: use;;
+  => nrel_supported_platform: IOS;
+  => nrel_supported_platform: Android;
+  => nrel_supported_language: ru_language;
+  =>nrel_use_of_personal_data: use;;

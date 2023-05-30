@@ -7,6 +7,17 @@ terragenesis
         (* <- lang_en;; *);
 
     <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [TerraGenesis - это игра от Edgeworks, которая позволяет вам либо преобразовать целые миры в пышные зеленые раи, 
+            либо оставить их такими, какие они есть, и заставить население жить в гигантских куполах на поверхности планеты. 
+            Присоединяйтесь к фракции в их стремлении распространить человечество по всей Вселенной, каждый своим уникальным способом.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
             -> rrel_example: "file://..//Photo//terragenesis.jpg"
@@ -16,7 +27,7 @@ terragenesis
         *);;
     *);
 
-
+    ->rrel_developer: TiltingPoint;
     =>nrel_view: first_face;
     =>nrel_type_of_game: singleplayer;
     =>nrel_have_donate: have;

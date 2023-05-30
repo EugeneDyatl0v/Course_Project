@@ -33,7 +33,7 @@ rfs
         *);;
     *);
 
-
+    ->rrel_developer:RORTOS;
     =>nrel_view: first_and_third_face;
     =>nrel_type_of_game: singleplayer;
     =>nrel_have_donate: have;

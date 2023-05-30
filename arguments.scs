@@ -1,3 +1,231 @@
+GINATS_software
+=> nrel_main_idtf:
+    [GIANTS Software]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [GIANTS Software]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [GIANTS Software - разработчик игр для Android, который работает с 2012 года. Текущее портфолио приложений содержит 6 игр, все из которых перечислены в категории "Симуляторы". В рейтинге Google приложения GIANTS Software входят в топ-100 более чем в 10 странах. Два самых важных приложения от GIANTS Software - это Farming Simulator 2020. Оба они были установлены более 50 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [GIANTS Software is an Android game developer that has been active since 2012. The current app portfolio contains 6 games, all of which are listed in the category "Simulation". In the Google rankings, GIANTS Software's apps appear in the top 100 in more than 10 countries. Two of the most important apps from GIANTS Software is Farming Simulator 2020. Both of them have been installed more than 50 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+UltraAndre
+=> nrel_main_idtf:
+    [UltraAndre]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [UltraAndre]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Приложения разработанные данным разработчиком: PC Creator и его сиквелы.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Applications developed by this developer: PC Creator and its sequels.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+TOJGAMES
+=> nrel_main_idtf:
+    [TOJGAMES — Car racing games & Driving simulators]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [TOJGAMES — Car racing games & Driving simulators]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [TOJGAMES — Car racing games & Driving simulators - разработчик игр для Android, который работает с 2020 года. Текущее портфолио приложений содержит 4 игры. В целом, по нашим оценкам, приложения TOJGAMES — Car racing games & Driving simulators собрали около 10 миллионов установок, из них 2 миллиона за последние 30 дней. Некоторыми важными приложениями являются Driver Life - автомобильный симулятор, многопользовательские гонки на автомобилях, Real Car Parking 2: Car Sim и Traffic Racer Pro: Автомобильные игры. Все они были установлены более 1 миллиона раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [TOJGAMES — Car racing games & Driving simulators is an Android game developer that has been active since 2020. The current app portfolio contains 4 games. Overall, we estimate that TOJGAMES — Car racing games & Driving simulators's apps have collected about 10 million installs, 2 million of them in the last 30 days. Some important apps are Driver Life - Car Simulator, Racing in Car - Multiplayer, Real Car Parking 2 : Car Sim, and Traffic Racer Pro : Car Games. All of them have been installed more than 1 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+RORTOS
+=> nrel_main_idtf:
+    [RORTOS]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [RORTOS]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [RORTOS - разработчик игр для Android, который работает с 2011 года. Текущее портфолио приложений содержит 17 игр, все из которых перечислены в категории "Симуляторы". В рейтинге Google приложения RORTOS входят в топ-100 более чем в 10 странах. Некоторые важные приложения - это AirFighters, Extreme Landings, F18 Carrier Landing Lite и Airline Commander: Flight Game. Все они были установлены более 10 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [RORTOS is an Android game developer that has been active since 2011. The current app portfolio contains 17 games, all of which are listed in the category "Simulation". In the Google rankings, RORTOS's apps appear in the top 100 in more than 10 countries. Some important apps are AirFighters, Extreme Landings, F18 Carrier Landing Lite, and Airline Commander: Flight Game. All of them have been installed more than 10 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+RoasteryGames
+=> nrel_main_idtf:
+    [Roastery Games]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Roastery Games]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Roastery Games - разработчик игр для Android, который работает с 2016 года. Текущее портфолио приложений содержит 6 игр. Два самых важных приложения от Roastery Games - это Laptop Tycoon и Smartphone Tycoon 2. Оба они были установлены более 1 миллиона раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Roastery Games is an Android game developer that has been active since 2016. The current app portfolio contains 6 games. Two of the most important apps from Roastery Games are Laptop Tycoon and Smartphone Tycoon 2. Both of them have been installed more than 1 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+ParadymeGames
+=> nrel_main_idtf:
+    [Paradyme Games]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Paradyme Games]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Paradyme Games - разработчик для Android, который работает с 2017 года. Текущее портфолио приложений содержит 14 приложений, большинство из которых являются играми. В рейтинге Google приложения Paradyme Games входят в топ-100 более чем в 10 странах. Популярным приложением является Solar Smash, которое занимает высокие позиции в нескольких странах и с более чем 100 миллионами установок является одним из самых популярных приложений в Google Play.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Paradyme Games is an Android developer that has been active since 2017. The current app portfolio contains 14 apps, most of which are games. In the Google rankings, Paradyme Games's apps appear in the top 100 in more than 10 countries. A popular app is Solar Smash, which is highly ranked in several countries and, with over 100 million installs, is one of the most popular apps in Google Play.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+OvidiuPop
+=> nrel_main_idtf:
+    [Ovidiu Pop]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Ovidiu Pop]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Ovidiu Pop - разработчик игр для Android, который работает с 2012 года. Текущее портфолио приложений содержит 20 игр. В рейтинге Google приложения Ovidiu Pop входят в топ-100 более чем в 10 странах. Два самых важных приложения от Ovidiu Pop - это Bus Simulator: Original и European Truck Simulator. Оба они были установлены более 50 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Ovidiu Pop is an Android game developer that has been active since 2012. The current app portfolio contains 20 games. In the Google rankings, Ovidiu Pop's apps appear in the top 100 in more than 10 countries. Two of the most important apps from Ovidiu Pop are Bus Simulator: Original and European Truck Simulator. Both of them have been installed more than 50 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+TiltingPoint
+=> nrel_main_idtf:
+    [Tilting Point]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tilting Point]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Tilting Point - разработчик игр для Android, который работает с 2015 года. Текущее портфолио приложений содержит 26 игр. В рейтинге Google приложения Tilting Point входят в топ-100 более чем в 10 странах. Популярным приложением является SpongeBob: Krusty Cook-Off, которое занимает высокие позиции в нескольких странах и с более чем 50 миллионами установок является одним из самых популярных приложений в Google Play.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Tilting Point is an Android game developer that has been active since 2015. The current app portfolio contains 26 games. In the Google rankings, Tilting Point's apps appear in the top 100 in more than 10 countries. A popular app is SpongeBob: Krusty Cook-Off, which is highly ranked in several countries and, with over 50 million installs, is one of the most popular apps in Google Play.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+blueflower
+=> nrel_main_idtf:
+    [blueflower]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [blueflower]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [blueflower - компания-разработчик программного обеспечения, расположенная в Ашаффенбурге, Германия. Они очень мотивированы к разработке приложений для Android, iOS и ПК. Их самым большим успехом на данный момент является наша градостроительная игра TheoTown, которую мы предлагаем для всех этих платформ.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [blueflower is a software company located in Aschaffenburg, Germany. They highly motivated to develop apps for Android, iOS and PC. Their greatest success so far is our city building game TheoTown which we offer for all of these platforms.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Nordeus
+=> nrel_main_idtf:
+    [Nordeus]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Nordeus]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Nordeus - сербский независимый разработчик мобильных игр со штаб-квартирой в CBD Новый Белград в Белград. Дебютная игра студии - Top Eleven Football Manager, бесплатная игра-симулятор социального футбола. В 2013 году игра достигла вершины кассовых чартов в 23 странах на Android и в 68 странах на AppStore, согласно данным App Annie. Самофинансируемая компания, одна из самых быстрорастущих компаний Европы в области компьютерных игр. Это частная компания без внешнего финансирования.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Nordeus is a Serbian independent mobile game developer headquartered in the New Belgrade CBD in Belgrade. The studio's debut game is Top Eleven Football Manager, a free simulation game of social football. In 2013, the game reached the top of the box office charts in 23 countries on Android and in 68 countries on the AppStore, according to App Annie. A self-funded company, one of the fastest growing companies in Europe in the field of computer games. This is a private company without external financing.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+AzurInteractiveGamesLimited
+=> nrel_main_idtf:
+    [Azur Interactive Games Limited]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Azur Interactive Games Limited]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Azur Interactive Games Limited - разработчик игр для Android, который работает с 2015 года. Текущее портфолио приложений содержит 40 игр. В рейтинге Google приложения Azur Interactive Games Limited входят в топ-100 более чем в 10 странах. Двумя наиболее важными приложениями от Azur Interactive Games Limited являются Modern Strike Online: PvP FPS и World War Heroes — WW2 PvP FPS. Оба они имеют высокий рейтинг в Google Play и были установлены более 100 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Azur Interactive Games Limited is an Android game developer that has been active since 2015. The current app portfolio contains 40 games. In the Google rankings, Azur Interactive Games Limited's apps appear in the top 100 in more than 10 countries. Two of the most important apps from Azur Interactive Games Limited are Modern Strike Online: PvP FPS and World War Heroes — WW2 PvP FPS. Both of them are highly ranked on Google Play and have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+WargamingGroup
+=> nrel_main_idtf:
+    [Wargaming Group]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Wargaming Group]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Wargaming Group - разработчик игр для Android, который работает с 2012 года. Текущее портфолио приложений содержит 5 игр. В рейтинге Google приложения Wargaming Group входят в топ-100 более чем в 10 странах. Популярным приложением является World of Tanks Blitz - PVP MMO, которое имеет высокий рейтинг в нескольких странах и с более чем 100 миллионами установок является одним из самых популярных приложений в Google Play.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Wargaming Group is an Android game developer that has been active since 2012. The current app portfolio contains 5 games. In the Google rankings, Wargaming Group's apps appear in the top 100 in more than 10 countries. A popular app is World of Tanks Blitz - PVP MMO, which is highly ranked in several countries and, with over 100 million installs, is one of the most popular apps in Google Play.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
 YandexLLC
 => nrel_main_idtf:
     [Yandex LLC]

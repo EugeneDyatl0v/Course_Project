@@ -32,7 +32,7 @@ theotown
         *);;
     *);
 
-
+    ->rrel_developer: blueflower;
     =>nrel_view: third_face;
     =>nrel_type_of_game: singleplayer;
     =>nrel_have_donate: have;

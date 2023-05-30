@@ -31,7 +31,7 @@ topeleven2020
         *);;
     *);
 
-
+    ->rrel_developer: Nordeus;
     =>nrel_view: third_face;
     =>nrel_type_of_game: single_and_multiplayer;
     =>nrel_have_donate: have;

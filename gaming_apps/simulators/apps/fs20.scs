@@ -32,7 +32,7 @@ fs20
         *);;
     *);
 
-
+    ->rrel_developer: GINATS_software;
     =>nrel_view: first_and_third_face;
     =>nrel_type_of_game: single_and_multiplayer;
     =>nrel_have_donate: have;
