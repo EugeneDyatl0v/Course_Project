@@ -131,6 +131,25 @@ OvidiuPop
         *);;
     *);;
 
+DevolverDigital
+=> nrel_main_idtf:
+    [Devolver Digital]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Devolver Digital]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Devolver Digital — американский издатель компьютерных игр и кинодистрибьютор. Компания была основана в 2009 году в Остине, штат Техас. Её основателями являются Майк Уилсон, Гарри Миллер и Рик Сталтс, ранее основавшие издательство Gathering of Developers и Gamecock Media Group. Деятельность компании сфокусирована на рынке цифровой дистрибуции и поддержке независимых разработчиков за счёт рекламного продвижения и финансовой поддержки их игр.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Devolver Digital is an American computer game publisher and film distributor. The company was founded in 2009 in Austin, Texas. Its founders are Mike Wilson, Harry Miller and Rick Stiles, who previously founded the publishing house Gathering of Developers and Gamecock Media Group. The company's activities are focused on the digital distribution market and the support of independent developers through advertising promotion and financial support of their games.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
 TiltingPoint
 => nrel_main_idtf:
     [Tilting Point]
@@ -282,6 +301,50 @@ BITMaster
             (* <-lang_en;;*);;
         *);;
     *);;
+
+NetherRealmStudios
+=> nrel_main_idtf:
+    [NetherRealm Studios]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [NetherRealm Studios]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [NetherRealm Studios (стилизуется как NetheЯRealm Studios) — американская студия, специализирующаяся на разработке компьютерных игр. Учреждённая в 2010 году, она появилась в результате замещения WB Games Chicago, дочернего отделения Warner Bros. Interactive Entertainment, расположенного в Чикаго, штат Иллинойс. В возглавляемой Шоном Химмериком студии, командой в качестве креативного директора руководит Эд Бун, выдающийся деятель игровой индустрии и один из создателей серии Mortal Kombat. На логотипе студии изображён силуэт Скорпиона.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [NetherRealm Studios (stylized as NetheYRealm Studios) is an American studio specializing in the development of computer games. Established in 2010, it emerged as a result of the replacement of WB Games Chicago, a subsidiary of Warner Bros. Interactive Entertainment, located in Chicago, Illinois. In the studio headed by Sean Himmerik, the team as creative director is led by Ed Boone, an outstanding figure in the gaming industry and one of the creators of the Mortal Kombat series. The logo of the studio depicts the silhouette of a Scorpion.]
+            (* <-lang_en;;*);;
+        *);;
+    *);; 
+
+Pixelbite
+=> nrel_main_idtf:
+    [Pixelbite]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Pixelbite]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Студия Pixelbite разрабатывает и распространяет игры по множеству цифровых каналов, цель которых - предложить высококачественные игровые возможности, адаптированные для портативных устройств. Чтобы оставаться конкурентоспособными и привнести в наши игры уникальный колорит, мы также разрабатываем собственный мультиплатформенный движок.
+            До сегодняшнего дня мы выпустили более 17 игр на нескольких платформах, где признанные критиками Space Marshals и Reckless Racing являются нашей самой известной и успешной серией игр.
+            Бренд Pixelbite был основан в 2009 году пятью энтузиастами-ветеранами индустрии. С тех пор команда выросла в группу из 8 потрясающих художников и программистов с более чем 140-летним опытом коллективной разработки.  Мы стремимся поддерживать офисную культуру, в которой к каждому относятся как к личности, относятся со смирением и уважением, а также получают массу удовольствия, занимаясь любимым делом!
+            Игровая студия Pixelbite расположена в Хельсингборге, Швеция. МИССИЯ: Предлагать крутые и веселые мобильные игры высокого класса посредством цифровой дистрибуции.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [The Pixelbite studio develops and distributes games over a variety of digital channels, where the ambition is to offer high quality game experiences tailored for handheld devices. To stay competitive and to instill a unique touch and feel in our games we also develop our own in-house multiplatform engine.
+            Until today we have released 17+ game on multiple platforms, where the critically acclaimed Space Marshals and Reckless Racing are our most known and successful game series.
+            The Pixelbite brand was established in 2009 by five enthusiastic industry veterans. Since then the team has grown into a group of 8 awesome artists and coders with over 140 years of collective development experience.  We strive to maintain an office culture where everyone is seen as their own individual, treated with humility and respect, as well as having a lot of fun doing what we love!
+            The Pixelbite game studio is located in Helsingborg, Sweden. MISSION: Offer cool and fun high-end mobile games through digital distribution.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;   
 
 ZVEZDA_STOLITSY
 => nrel_main_idtf:

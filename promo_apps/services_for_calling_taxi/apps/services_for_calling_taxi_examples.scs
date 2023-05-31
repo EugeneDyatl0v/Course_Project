@@ -4,9 +4,4 @@ concept_services_for_calling_taxi_examples
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [Mobile services for calling taxi]
-    (* <- lang_en;; *);
-
-->maxim;
-->yandex_go;
-->comandir;
-->g10;;
+    (* <- lang_en;; *);;
