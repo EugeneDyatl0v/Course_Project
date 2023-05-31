@@ -6,6 +6,9 @@ concept_simulator_games_examples
     [Mobile simulators]
     (* <- lang_en;; *);
 
+->eurotrainsimulator;
+->eurotrainsimulator2;
+->stardewvalley;
 ->fs20;
 ->pccreator;
 ->rfs;

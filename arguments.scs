@@ -207,6 +207,25 @@ Nordeus
         *);;
     *);;
 
+ConcernedApe
+=> nrel_main_idtf:
+    [ConcernedApe]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [ConcernedApe]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Эрик Бароне, также известный под псевдонимом ConcernedApe, является американским разработчиком видеоигр, дизайнером видеоигр, художником, композитором и музыкантом. Наиболее известен тем, что самостоятельно создал видеоигру Stardew Valley.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Eric Barone, also known by the pseudonym ConcernedApe, is an American video game developer, video game designer, artist, composer and musician. He is best known for having independently created the video game Stardew Valley.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
 AzurInteractiveGamesLimited
 => nrel_main_idtf:
     [Azur Interactive Games Limited]
@@ -222,6 +241,25 @@ AzurInteractiveGamesLimited
             -> rrel_example: [Azur Interactive Games Limited - разработчик игр для Android, который работает с 2015 года. Текущее портфолио приложений содержит 40 игр. В рейтинге Google приложения Azur Interactive Games Limited входят в топ-100 более чем в 10 странах. Двумя наиболее важными приложениями от Azur Interactive Games Limited являются Modern Strike Online: PvP FPS и World War Heroes — WW2 PvP FPS. Оба они имеют высокий рейтинг в Google Play и были установлены более 100 миллионов раз.] 
             (* <-lang_ru;; *);;
             -> rrel_example: [Azur Interactive Games Limited is an Android game developer that has been active since 2015. The current app portfolio contains 40 games. In the Google rankings, Azur Interactive Games Limited's apps appear in the top 100 in more than 10 countries. Two of the most important apps from Azur Interactive Games Limited are Modern Strike Online: PvP FPS and World War Heroes — WW2 PvP FPS. Both of them are highly ranked on Google Play and have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+HighbrowInteractive
+=> nrel_main_idtf:
+    [Highbrow Interactive]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Highbrow Interactive]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Highbrow Interactive - технологическая компания, базирующаяся в Ченнаи, Индия, которая специализируется на производстве игр, виртуальной и дополненной реальности с более чем 10-летним опытом. У нас работает команда заядлых разработчиков и дизайнеров, которые стремятся создавать увлекательные, захватывающие впечатления. Наша цель - создавать лучшие игры, в которые играет как можно больше пользователей, которыми пользуются годами и которые запоминаются навсегда.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Highbrow Interactive is a tech company based in Chennai, India, that specializes in game production, virtual and augmented reality with over 10 years of experience. We house a team of avid developers and designers who strive to develop engaging, immersive experiences. Our goal is to make the best games that are played by as many users, enjoyed for years and remembered forever.]
             (* <-lang_en;;*);;
         *);;
     *);;
