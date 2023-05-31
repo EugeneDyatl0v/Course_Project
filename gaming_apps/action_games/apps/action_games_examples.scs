@@ -6,8 +6,11 @@ concept_action_games_examples
     [Mobile action games]
     (* <- lang_en;; *);
 
+->grimvalor;
+->john_assasin;
+->call_of_duty_mobile;
+->spiderfighter2;
+->spiderfighter;
 ->xenowerk;
 ->my_friend_pedro;
-->standoff_2;
-->mortal_kombat;
-->super_mario;;
+->mortal_kombat;;

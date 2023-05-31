@@ -9,3 +9,11 @@ shooter => nrel_main_idtf:
 platformer => nrel_main_idtf:
     [Платформер]
     (* <- lang_ru;; *);;
+
+beatemup => nrel_main_idtf:
+    [Beat'em up]
+    (* <- lang_ru;; *);;
+
+roleplay => nrel_main_idtf:
+    [Ролевой]
+    (* <- lang_ru;; *);;

@@ -30,6 +30,10 @@ nrel_graphic_style => nrel_main_idtf:
 
 
 
+retro => nrel_main_idtf:
+    [ретро]
+    (* <- lang_ru;; *);;
+
 cartoon => nrel_main_idtf:
     [мультяшная]
     (* <- lang_ru;; *);;

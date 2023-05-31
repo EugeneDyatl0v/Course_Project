@@ -1,7 +1,0 @@
-bz_patterns
-    => nrel_main_idtf: [Шаблоны для поиска по БЗ] (* <- lang_ru;; *);
-    -> pattern1;
-    -> pattern2;;
-
-pattern1 => nrel_main_idtf: [Найти все приложения для вызова такси] (* <- lang_ru;; *);;
-pattern2 => nrel_main_idtf: [Найти автопарк приложений разработчика Yandex LCC] (* <- lang_ru;; *);;

@@ -392,7 +392,109 @@ SuperheroAcademy
             All of them have been installed more than 5 million times.]
             (* <-lang_en;;*);;
         *);;
+    *);;
+
+Direlight
+=> nrel_main_idtf:
+    [Direlight]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Direlight]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Мы - небольшая финская игровая студия, занимающаяся созданием увлекательных игр для игроков. 
+            Если бы вы посетили наш офис, вас встретил бы запах темного обжаренного кофе и комната, полная идей и энтузиазма.
+            Firelight была основана, когда участники Touch Foo объединились с парой квалифицированных специалистов в области искусства и программирования. 
+            Теперь, когда наша команда вобрала в себя все важные аспекты разработки игр, мы задались целью создать что-то особенное. 
+            Каждый член команды в душе геймер, часто играющий как в AAA-игры, так и пробующий себя в странных инди-проектах. 
+            Мы все выросли, играя в классику на старых добрых 8-битных NES и Commodore 64.
+            Наши проекты отражают в нас закоренелых геймеров. Так же сильно, как нам нравится играть в игры, мы любим вкладывать себя в их создание.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [We are a small Finnish game studio dedicated to making fun games for players. 
+            If you were to visit our office, you would be greeted by the smell of dark roasted coffee and a room full of ideas and enthusiasm.
+            Direlight was founded when the members of Touch Foo teamed up with a couple of skilled specialists in art and programming. 
+            With our team now incorporating all the important aspects of game development, we set out to create something special. 
+            Everyone on the team is a gamer at heart, often playing both AAA games and trying out weird indie projects. 
+            We have all grown up playing classics on the good old 8-bit NES and Commodore 64.
+            Our projects reflect the hardcore gamers in us. As much as we like playing games, we love putting ourselves into creating them.]
+            (* <-lang_en;;*);;
+        *);;
     *);;        
+
+Playdigious
+=> nrel_main_idtf:
+    [Playdigious]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Playdigious]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Playdigious — издатель загружаемых видеоигр для iOS и Android .
+            Компания была основана в 2015 году Ксавьером Лиардом и Роменом Тиссераном, соучредителями DotEmu , 
+            после продажи последнего. Playdigious ведет свою коммерческую деятельность в Монтрее , 
+            а деятельность по развитию — в Нанси . В настоящее время в компании работает семь сотрудников.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Playdigious is a publisher of downloadable video games for iOS and Android .
+            The company was founded in 2015 by Xavier Liard and Romain Tisserand, co-founders of DotEmu,
+            after the sale of the latter. Playdigious conducts its commercial activities in Montreuil
+            and its development activities in Nancy . The company currently employs seven employees.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;  
+    
+NEKKI
+=> nrel_main_idtf:
+    [NEKKI]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [NEKKI]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [NEKKI - разработчик игр для Android, который работает с 2013 года. 
+            Текущее портфолио приложений содержит 12 игр. В рейтинге Google приложения Никки появляются 
+            входит в топ-100 более чем в 10 странах. Некоторыми важными приложениями являются Shadow Fight 2,
+            Shadow Fight 3 - RPG-файтинг и Vector: Parkour Run. Все они имеют высокий рейтинг
+            в Google Play и были установлены более 100 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [NEKKI is an Android game developer that has been active since 2013. 
+            The current app portfolio contains 12 games. In the Google rankings, NEKKI's apps appear 
+            in the top 100 in more than 10 countries. Some important apps are Shadow Fight 2, 
+            Shadow Fight 3 - RPG fighting, and Vector: Parkour Run. All of them are highly ranked 
+            on Google Play and have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;         
+
+CoffeeStainPublishing
+=> nrel_main_idtf:
+    [Coffee Stain Publishing]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Coffee Stain Publishing]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [В феврале 2017 года Coffee Stain объявила об учреждении Coffee Stain Publishing — дочернего издательства, занимающегося выпуском игр других разработчиков. Первой такой игрой стала Huntdown от шведской студии Easy Trigger.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [In February 2017, Coffee Stain announced the establishment of Coffee Stain Publishing, a subsidiary publishing house that produces games from other developers. The first such game was Huntdown from the Swedish studio Easy Trigger.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;         
 
 ZVEZDA_STOLITSY
 => nrel_main_idtf:
