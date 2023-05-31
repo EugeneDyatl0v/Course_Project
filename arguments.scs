@@ -346,6 +346,54 @@ Pixelbite
         *);;
     *);;   
 
+ActivisionPublishingInc
+=> nrel_main_idtf:
+    [Activision Publishing, Inc.]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Activision Publishing, Inc.]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Activision Publishing, Inc. - американский издатель видеоигр, базирующийся в Санта-Монике, Калифорния. 
+            Она служит издательским бизнесом для своей материнской компании, Activision Blizzard, и состоит из нескольких дочерних студий. 
+            Activision является одним из крупнейших сторонних издателей видеоигр в мире и была лучшим издателем в Соединенных Штатах в 2016 году.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Activision Publishing, Inc. is an American video game publisher based in Santa Monica, California. 
+            It serves as a publishing business for its parent company, Activision Blizzard, and consists of several affiliated studios. 
+            Activision is one of the largest third-party video game publishers in the world and was the top publisher in the United States in 2016.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;   
+
+SuperheroAcademy
+=> nrel_main_idtf:
+    [Superhero Academy]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Superhero Academy]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Superhero Academy - разработчик игр для Android, который работает с 2019 года. 
+            Текущее портфолио приложений содержит 8 игр. В целом, по нашим оценкам, приложения Академии супергероев собрали около 30 миллионов установок,
+            из них 2 миллиона за последние 30 дней. Некоторые важные приложения - Spider Fighter 2, Muscle Hero: Future Evolution и Iron Hero: Superhero Fighting. 
+            Все они были установлены более 5 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Superhero Academy is an Android game developer that has been active since 2019. 
+            The current app portfolio contains 8 games. Overall, we estimate that Superhero Academy's apps have collected about 30 million installs, 
+            2 million of them in the last 30 days. Some important apps are Spider Fighter 2, Muscle Hero: Future Evolution, and Iron Hero: Superhero Fighting. 
+            All of them have been installed more than 5 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;        
+
 ZVEZDA_STOLITSY
 => nrel_main_idtf:
     [Звезда Столицы]
