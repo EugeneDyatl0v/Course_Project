@@ -245,6 +245,25 @@ AzurInteractiveGamesLimited
         *);;
     *);;
 
+BBCStudiosLimited
+=> nrel_main_idtf:
+    [BBC Studios Limited]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [BBC Studios Limited]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [BBC Studios Limited - разработчик Android, который работает с 2011 года. Текущее портфолио приложений содержит 30 приложений. В рейтинге Google приложения BBC Studios Limited входят в топ-100 более чем в 10 странах. Популярным приложением является BBC News, которое имеет высокий рейтинг в нескольких странах и с более чем 10 миллионами установок является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [BBC Studios Limited is an Android developer that has been active since 2011. The current app portfolio contains 30 apps. In the Google rankings, BBC Studios Limited's apps appear in the top 100 in more than 10 countries. A popular app is BBC News, which is highly ranked in several countries and, with over 10 million installs, is one of the most popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
 HighbrowInteractive
 => nrel_main_idtf:
     [Highbrow Interactive]
@@ -628,6 +647,138 @@ Android
         *);;
     *);;
 
+ZenPlatformLLC
+=> nrel_main_idtf:
+    [Zen Platform LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Zen Platform LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Zen Platform LLC — разработчик Android, который работает около 10 месяцев и имеет одно приложение (Дзен - видео, ролики, статьи) в Google Play. С более чем 1 миллионом установок  Дзен — видео, ролики, статьи является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Zen Platform LLC is an Android developer that has been active for about 10 months and has one app (Дзен — видео, ролики, статьи) in Google Play. With more than 1 million installs, Дзен — видео, ролики, статьи is among the more popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+GoogleLLC
+=> nrel_main_idtf:
+    [Google LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Google LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Google LLC - разработчик Android, который начал свою деятельность до 2010 года и, таким образом, является одним из пионеров Android. Текущее портфолио приложений содержит 193 приложения. В рейтинге Google приложения Google LLC входят в топ-100 более чем в 10 странах. Некоторыми важными приложениями являются Google Chrome: Fast & Secure, Google Maps, Gmail, сервисы Google Play, Google, Android Accessibility Suite, речевые сервисы Google и YouTube. Все они были установлены более 10 миллиардов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Google LLC is an Android developer, who started before 2010, and thus is one of the Android pioneers. The current app portfolio contains 193 apps. In the Google rankings, Google LLC's apps appear in the top 100 in more than 10 countries. Some important apps are Google Chrome: Fast & Secure, Google Maps, Gmail, Google Play services, Google, Android Accessibility Suite, Speech Services by Google, and YouTube. All of them have been installed more than 10 billion times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Kufar
+=> nrel_main_idtf:
+    [Kufar]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Kufar]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Куфар - разработчик Android, который работает с 2013 года и имеет одно приложение (Куфар: товары, квартиры, авто) в Google Play. С более чем 5 миллионами установок Куфар: товары, квартиры, авто является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Kufar is an Android developer that has been active since 2013 and has one app (Куфар: товары, квартиры, авто) in Google Play. With more than 5 million installs, Куфар: товары, квартиры, авто is among the more popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+VKcom
+=> nrel_main_idtf:
+    [VK.com]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [VK.com]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [VK.com является разработчиком Android, который работает с 2011 года. Текущее портфолио приложений содержит 19 приложений. В рейтинге Google, VK.com Приложения компании входят в топ-100 более чем в 5 странах. Два самых важных приложения от VK.com это ВКОНТАКТЕ: музыка, видео, мессенджер и Youla. Легко покупайте и продавайте. Оба они были установлены более 50 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [VK.com is an Android developer that has been active since 2011. The current app portfolio contains 19 apps. In the Google rankings, VK.com's apps appear in the top 100 in more than 5 countries. Two of the most important apps from VK.com are VK: music, video, messenger and Youla. Buy and sell easily. Both of them have been installed more than 50 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+MediagroupRussiaToday
+=> nrel_main_idtf:
+    [Медиагруппа "Россия Сегодня"]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mediagroup Russia Today]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Sputnik - международный бренд медиагруппы "Россия сегодня", предлагающий веб-сайты на 32 языках, радиовещание в 19 странах, а также новостные ленты на английском, китайском, испанском, арабском и фарси. Бренды группы в России включают ведущее информационное агентство "РИА Новости" и RIA.Сайт RU, а также другие информационные ресурсы, такие как PRIME, ИноСМИ, ТОК/КОТ, Baltnews, Ukraina.ru , Социальный навигатор, Arctic.ru и радио "Спутник".] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Sputnik is Rossiya Segodnya media groups international brand offering websites in 32 languages, radio broadcasting in 19 countries as well as newsfeeds in English, Chinese, Spanish, Arabic and Farsi. The groups brands in Russia include RIA Novosti, a leading news agency, and the RIA.RU website, as well as other information resources such as PRIME, InoSMI, TOK/KOT, Baltnews, Ukraina.ru, Social Navigator, Arctic.ru and Sputnik Radio.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+IBAGroup
+=> nrel_main_idtf:
+    [IBA Group]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [IBA Group]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [IBA Group - один из крупнейших системных интеграторов, разработчиков, производителей и поставщиков информационных технологий (ИТ) в Центральной и Восточной Европе] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [IBA Group is one of the largest system integrators, developers, manufacturers and suppliers of information technology (IT) in Central and Eastern Europe]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+IntertechServicesAG
+=> nrel_main_idtf:
+    [Intertech Services AG]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Intertech Services AG]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Intertech Services AG - разработчик Android, который начал свою деятельность до 2010 года и, таким образом, является одним из пионеров Android. Текущее портфолио приложений содержит 58 приложений. В рейтинге Google приложения Intertech Services AG входят в топ-100 более чем в 5 странах. Некоторые важные приложения — это Яндекс Браузер с защитой, Яндекс Старт, Яндекс Go - такси и доставка, Яндекс Карты и навигатор, а также Яндекс Навигатор. Все они были установлены более 100 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Intertech Services AG is an Android developer, who started before 2010, and thus is one of the Android pioneers. The current app portfolio contains 58 apps. In the Google rankings, Intertech Services AG's apps appear in the top 100 in more than 5 countries. Some important apps are Yandex Browser with Protect, Yandex Start, Yandex Go — taxi and delivery, Yandex Maps and Navigator, and Yandex Navigator. All of them have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
 
 all_language
 => nrel_main_idtf:

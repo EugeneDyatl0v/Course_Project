@@ -1,9 +1,9 @@
-googlecalendar
+googlenews
 => nrel_main_idtf:
-    [Google calendar]
+    [Google News]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Google calendar]
+    [Google News]
     (* <- lang_en;; *);
 
     -> rrel_developer: GoogleLLC;
@@ -11,11 +11,11 @@ googlecalendar
     => nrel_supported_platform: Android;
     => nrel_supported_language: all_language;
     =>nrel_use_of_personal_data: use;
-    =>nrel_type_of_information_app: calendar;
+    =>nrel_type_of_information_app: news;
     <- rrel_key_sc_element: ... (*
         <- illustration;;
         <= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://..//Photo//googlecalendar.jpg"
+            -> rrel_example: "file://..//Photo//googlenews.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
