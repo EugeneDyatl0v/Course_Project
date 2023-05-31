@@ -6,6 +6,8 @@ concept_action_games_examples
     [Mobile action games]
     (* <- lang_en;; *);
 
+->xenowerk;
+->my_friend_pedro;
 ->standoff_2;
 ->mortal_kombat;
 ->super_mario;;
