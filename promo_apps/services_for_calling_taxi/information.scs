@@ -69,6 +69,7 @@ section_yandex_go_autopark
         [Автомобили]
         (* <- lang_ru;; *);
     =>nrel_main_idtf: [Cars] (* <-lang_en;; *);    
+    ->Audi_Q7;
     ->Skoda_Rapid;
     ->Hyundai_Solaris;
     ->Nissan_Almera;
@@ -781,7 +782,68 @@ Audi_A6 => nrel_main_idtf:
         *);;
     *);;
 
+Audi_Q7 => nrel_main_idtf:
+    [Audi Q7]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Audi Q7]
+    (* <- lang_en;; *);
 
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 890l;
+
+     <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Нагнетатель: Турбина
+
+                            Объем: 3.0 л
+
+                            Мощность: 245 л.с.
+
+                            Расход: 7,4 л
+
+                            Тип топлива: Дизельное топливо
+
+                            Трансмиссия: АКПП
+
+                            Привод Полный: (4WD)
+
+                            Кол-во мест: 5 мест
+
+                            Кол-во дверей: 5 дверей
+
+                            Клиренс: 180 мм
+                            
+                            По собственному опыту могу заявить, что это один из лучших паркетник из всех.
+                            Хоть и заявлено 5 мест для сидения, но практическим путём было установленно, что могут достаточно удобно поместиться 10 людей.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Dead Cells is an action platformer in which you have to plunge into exciting 
+            2D battles with a huge selection of weapons and skills against ruthless bosses and their minions. Experience 
+            play yourself as a test subject of a failed alchemical experiment and explore the ever-changing and 
+            a sprawling castle in search of clues to all the secrets of the sinister island.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//q7.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+
+890l
+    => nrel_main_idtf: [890 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [890 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 890;; *);;
 
 460l
     => nrel_main_idtf: [460 л] (* <-lang_ru;; *);

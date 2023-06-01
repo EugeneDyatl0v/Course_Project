@@ -1,13 +1,3 @@
-section_of_information_apps
-    =>nrel_main_idtf:[Раздел.  приложения] (* <-lang_ru;;*);
-    =>nrel_main_idtf:[Section.  apps] (* <-lang_en;;*);
-
-<-atomic_section;;/*При декомпозиции удалить 2 запятую*/
-
-/*=> nrel_section_decomposition:	
-concept;
-concept;;*/
-
 subject_domain_of_information_apps
 
 =>nrel_main_idtf:[Предметная область. Информационные приложения]
@@ -22,7 +12,3 @@ subject_domain_of_information_apps
 
 ->rrel_maximum_studied_object_class:
     concept_of_information_apps;;
-
-/*-> rrel_explored_relation:
-    ...
-    ...*/
